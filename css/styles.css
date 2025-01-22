@@ -1,0 +1,156 @@
+* {
+    font-family: "Raleway";
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.banner{
+width: 1440px;
+height: 605px;
+text-align: center;
+border-bottom: solid 1px #33A8DB;
+}
+
+.logo {
+    width: 268px;
+    height: 268px;
+    margin: auto;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url('../fonts/Raleway-VariableFont_wght.ttf');
+}
+
+h1 {
+    font-family: "Raleway";
+    font-weight: 900;
+    text-transform: uppercase;
+    background: linear-gradient(#33A8DB,#1472B7);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+#firstDescription {
+    font-family: "Raleway";
+    font-weight: 400;
+    text-align: center;
+    margin: 16px 460px;
+    color: #FFFFFF;
+}
+
+.secondDescription {
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: "Raleway";
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: #33A8DB;
+}
+
+#course-content{
+    width: 792px;
+    height: 325px;
+margin-left: 324px;
+
+}
+
+
+#transform-world {
+    width: 100%;
+    height: 500px;
+    border: 1px 1px 1px;
+    background-image: url("../trilha-css-desafio-01/assets/images/woman-code.png");
+    background-size: 1439px 960px;
+    background-attachment: fixed;
+}
+
+
+#signIn {
+    font-weight: 900;
+    font-size: 16px;
+    padding: 19px 91px;
+    color: #33A8DB;
+    border: solid 2px #33A8DB;
+    background: linear-gradient(#3BA1CD,#1572B7);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+p {
+    text-align: center;
+}
+
+.module {
+    border: solid 1px;
+    border-radius: 57px;
+    padding: 16px 20px;
+    text-align: center;
+    color: white;
+    border-color: #33A8DB;
+    background-color: #252525;
+    margin-top: 24px;
+}
+
+.modules-list {
+    margin-left: 138px;
+    padding-bottom: 277px;
+    width: 473px;
+}
+
+span {
+    color: #33A8DB;
+}
+
+#transformWorld {
+    font-size: 40px;
+    font-weight: 900;
+    width: 244px;
+    height: 141px;
+    margin-left: 198px;
+    padding-top: 111px;
+    color: #FFFFFF;
+    text-shadow: 3px 2px #33A8DB;
+}
+
+#evoluaEEncare {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#homemLendo {
+    width: 659px;
+    height: 429px;
+    margin-left: 390px;
+}
+
+#junteSe {
+    width: 792px;
+    height: 76px;
+    margin-left: 324px;
+    color: #FFFFFF;
+}
+
+.dio-logo {
+    margin-top: 70px;
+    margin-left: 565px;
+}
+
+#fraseFinal {
+    color: white;
+}
+
+footer {
+    width: 1440px;
+    height: 170px;
+}
